@@ -1,0 +1,161 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: black;
+    color: white;
+}
+.header{
+    width:100%;
+    height:100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+.logo{
+    width: 150px;
+    cursor: pointer;
+    background: transparent;
+}
+nav button{
+    background: red;
+    color: white;
+    padding: 15px 30px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.language-btn{
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid white;
+    padding: 12px 30px;
+    color: white;
+    background-color: black;
+}
+.header-co{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 100px;
+}
+.header-co button{
+    background: red;
+    padding: 10px 25px;
+    font-family: sans-serif;
+    margin-top: 0.5cm;
+}
+.header-co input{
+    padding: 10px 70px;
+    background: transparent;
+    border-color: white;
+    text-decoration-color: white;
+    margin-top: 0.5cm;
+}
+.header-co h1{
+    font-size: 250%;
+}
+.text-col{
+    width:100%;
+    height:75vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.text-col h1{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4cm;
+    margin-right: 16cm;
+}
+.text-col p{
+    text-align: left;
+    font-size: 20px;
+}
+.text-col2 h1{
+    text-align: center;
+    margin-left: 10cm;
+    font-size: 50px;
+    margin-top: 2cm;
+}
+.text-col2 p{
+    text-align: right;
+    font-size: 20px;
+    margin-right: 4cm;
+}
+.text-col3{
+    width:100%;
+    height:75vh;
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+.text-col3 h1{
+    font-size: 50px;
+    margin-top: 5cm;
+    margin-left: 0cm;
+}
+.text-col3 p{
+    text-align: left;
+    font-size: 20px;
+    margin-right: 12cm;
+}
+.line hr{
+    color: rgb(61, 59, 59);
+    line-height: 1cm;
+    margin-top: 0cm;
+    height: 7px;
+    background-color: rgb(61, 59, 59);
+    border: 0px;
+}
+.line1 hr{
+    color: rgb(61, 59, 59);
+    line-height: 1cm;
+    margin-top: 0cm;
+    height: 7px;
+    background-color: rgb(61, 59, 59);
+    border: 0px;
+}
+.line2 hr{
+    color: rgb(61, 59, 59);
+    line-height: 1cm;
+    margin-top: 6cm;
+    height: 7px;
+    background-color: rgb(61, 59, 59);
+    border: 0px;
+}
+.line3 hr{
+    color: rgb(61, 59, 59);
+    line-height: 1cm;
+    margin-top: 0cm;
+    height: 7px;
+    background-color: rgb(61, 59, 59);
+    border: 0px;
+}
+.line3 p{ 
+  text-decoration:underline;
+}
+.button-1{
+    background: transparent;
+    color: white;
+    margin-top: 1.5cm;
+    padding: 20px 10px;
+}
